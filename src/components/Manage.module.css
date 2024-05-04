@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+}
+.container {
+    padding: 1rem;
+  }
+  .submissionsTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .submissionsTable th,
+  .submissionsTable td {
+    padding: 8px;
+    text-align: left;
+  }
+  .submissionsTable td {
+    border-bottom: 1px solid #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .submissionsTable th{
+    background-color: #f2f2f2;
+  }
