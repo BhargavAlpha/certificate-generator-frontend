@@ -12,6 +12,8 @@ export default async function fillPDF(formData) {
         })
         if(response.status===200){
             alert('Certificate Generated Successfully')
+            const link = response.data.link;
+            window.open(link);
         }
     }
     catch (error) {
