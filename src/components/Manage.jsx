@@ -44,7 +44,10 @@ const Manage = () => {
                                     {certificate.email}
                                 </td>
                                 <td onClick={() => handleSubmit(certificate.link)}>
-                                {certificate.link}</td>
+                                    <button className={styles.viewCertificateButton}>
+                                        View Certificate
+                                    </button>
+                                </td>
                             </tr>
                         ))}
                     </tbody>
